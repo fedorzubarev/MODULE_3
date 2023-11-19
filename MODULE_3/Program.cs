@@ -7,6 +7,13 @@
             string myName;
             const string ConstName = "Fedor_Const";
             myName = "Fedor";
+            byte MyAge = 27;
+            bool HavePet = true;
+            double MyShoeSize = 37.5;
+            Console.WriteLine("myName name is {0}", myName);
+            Console.WriteLine("My age is {0}", MyAge);
+            Console.WriteLine("Do I have a pet? {0}", HavePet);
+            Console.WriteLine("My shoe size is {0}", MyShoeSize);
 
             Console.WriteLine(myName);
             Console.WriteLine(ConstName);
